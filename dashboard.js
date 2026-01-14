@@ -9,7 +9,7 @@ const editForm = document.getElementById('editForm');
 const statusDiv = document.getElementById('statusMessage');
 
 // REPLACE THIS WITH YOUR DEPLOYED WEB APP URL
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby8F6ZHLUr47D6-3tCdf27GuxNi80DjIvHEpbVp_mSDzTkxdM9HHwp6b4x-u5fyETAY/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxE-UPGs1JQcfRJ3vUdLnUj0mzmuHPg4l34ujBRt8XMPG81ukYOUAYl6trAlSMvJvA/exec';
 
 // --- Sidebar Logic ---
 function toggleSidebar() {
@@ -315,4 +315,5 @@ async function fetchAndRenderAnalytics() {
         console.error('Analytics Error:', e);
     }
 }
+
 
