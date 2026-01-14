@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function fetchProjects() {
     // Google Sheet published as CSV
-    const SHEET_ID = '1WdwQ3QgxNO8NqH54gHI_xQh-UM3tmByusA71ScqJqiI';
+    const SHEET_ID = '1V7pfyLGJDxajIoqDQHJOvaNOLAmorTa_b3OVnRLDIkQ';
     const CSV_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv`;
 
     try {
@@ -217,3 +217,4 @@ function renderProjects(projects) {
         window.lucide.createIcons();
     }
 }
+
